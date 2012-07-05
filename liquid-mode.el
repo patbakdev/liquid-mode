@@ -42,4 +42,5 @@
   (setq font-lock-defaults '(liquidKeywords))
   (setq mode-name "liquid mode")
   )
+(add-to-list 'auto-mode-alist '("\\.liquid$" . liquid-mode))
 (provide 'liquid-mode)
