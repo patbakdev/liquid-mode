@@ -42,3 +42,4 @@
   (setq font-lock-defaults '(liquidKeywords))
   (setq mode-name "liquid mode")
   )
+(provide 'liquid-mode)
