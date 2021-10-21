@@ -71,7 +71,7 @@
 	("{%\s*for\s+\\w+\s+in\s+\\(\\(?:\\w\\|\\.\\|_\\)+\\)" (1 font-lock-variable-name-face)) ;;; the 'collection' in "for temp in collection"
 	)
       )
-(define-derived-mode liquid-mode html-mode
+(define-derived-mode liquid-mode web-mode
   (setq font-lock-defaults '(liquidKeywords))
   (setq mode-name "liquid mode")
   )
